@@ -1,0 +1,131 @@
+body{
+    width: 505px;
+    margin: 4% auto;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.8rem;
+}
+.calculator{
+    padding: 20px;
+    box-shadow: 0 1px 4px 0 lightgrey;
+    border-radius: 3px;
+}
+.input{
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    height: 60px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 6px;
+    font-size: 2.5rem;
+    overflow-x: auto;
+    transition: all .2s ease-in-out;
+}
+.input:hover{
+    border: 1px solid #bbb;
+    box-shadow: inset 0 1px 4px 0 lightgrey;
+}
+.buttons{}
+.operators{}
+.operators div{
+    display: inline-block;
+    border: 1px solid lightsteelblue;
+    border-radius: 3px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    background-color: lightsteelblue;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+.operators div:hover{
+    background-color: lightskyblue;
+    box-shadow: 3px 3px 4px 0 lightgrey;
+    border-color: lightskyblue;
+}
+.operators div:active{
+    font-weight: bold;
+}
+.leftPanel{
+    display: inline-block;
+}
+.numbers div{
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+.numbers div:hover{
+    background-color: #f1f1f1;
+    box-shadow: 3px 3px 4px 0 lightgrey;
+    border-color: #bbb;
+}
+.numbers div:active{
+    font-weight: bold;
+}
+.rightPanel{
+    display: inline-block;
+    vertical-align: top;
+}
+.rightPanel div{
+    border: 1px solid darkred;
+    border-radius: 3px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+    color: #FFF;
+    background-color: darkred;
+    transition: all .2s ease-in-out;
+}
+.rightPanel div:hover{
+    background-color: lightcoral;
+    box-shadow: 3px 3px 4px 0 lightgrey;
+    border-color: lightcoral;
+}
+.rightPanel div:active{
+    font-weight: bold;
+    /*box-shadow: -3px -3px 4px 0 lightgrey;*/
+}
+.rightPanel div:nth-child(1){
+    margin-bottom: 20px;
+}
+div.equal{
+    display: inline-block;
+    border: 1px solid darkblue;
+    border-radius: 3px;
+    /*width: 17%;*/
+    text-align: center;
+    padding: 47px 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+    color: #FFF;
+    background-color: darkblue;
+    transition: all .2s ease-in-out;
+}
+div.equal:hover{
+    background-color: mediumblue;
+    box-shadow: 3px 3px 4px 0 lightgrey;
+    border-color: mediumblue;
+}
+div.equal:active {
+    font-weight: bold;
+}
+div.clear{
+    color: #FFF;
+    background-color: lightseagreen;
+    transition: all .2s ease-in-out;
+}
+div.clear:hover{
+    background-color: #4bd2ca;
+    border-color: #4bd2ca;
+}
